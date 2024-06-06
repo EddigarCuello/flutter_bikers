@@ -1,0 +1,48 @@
+name: flutter_application
+description: "A new Flutter project."
+# La siguiente línea evita que el paquete se publique accidentalmente en pub.dev usando `flutter pub publish`.
+# Esto es preferido para paquetes privados.
+publish_to: 'none' # Elimina esta línea si deseas publicar en pub.dev
+
+# La siguiente define la versión y el número de construcción para tu aplicación.
+# Un número de versión consta de tres números separados por puntos, como 1.2.43
+# seguido de un número de construcción opcional separado por un +.
+# Tanto la versión como el número de construcción pueden ser anulados en flutter
+# build especificando --build-name y --build-number, respectivamente.
+# En Android, build-name se usa como versionName mientras que build-number se usa como versionCode.
+# Lee más sobre versiones de Android en https://developer.android.com/studio/publish/versioning
+# En iOS, build-name se usa como CFBundleShortVersionString mientras que build-number se usa como CFBundleVersion.
+# Lee más sobre versiones de iOS en
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# En Windows, build-name se usa como las partes de mayor, menor y parche
+# de las versiones de producto y de archivo mientras que build-number se usa como sufijo de compilación.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 
+  fl_chart: 
+  get: 
+  firebase_core:
+  firebase_auth: 
+  get_storage: 
+  firebase_storage: 
+  cloud_firestore: 
+  image_picker: 
+  url_launcher:
+  flutter_pdfview:
+  flutter_cached_pdfview:
+  path_provider: 
+  intl: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
